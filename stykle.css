@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+    background: #6649b8;
+}
+
+.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.content p{
+    color: rgb(161, 159, 159);
+    font-size: 25px;
+    text-align: justify;
+}
+
+.wrapper{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+.wrapper2{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+.wrapper3{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+.wrapper4{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+.wrapper5{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+.wrapper6{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+}
+
+.wrapper img{
+    display: flex;
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.wrapper2 img{
+    display: flex;
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.wrapper3 img{
+    display: flex;
+    max-width: 330px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.wrapper4 img{
+    display: flex;
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.wrapper5 img{
+    display: flex;
+    max-width: 315px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.wrapper6 img{
+    display: flex;
+    max-width: 320px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: linear-gradient(to bottom, #382268 , #382268, #382268, rgb(64, 52, 85), rgb(51, 34, 81));
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    height: 100vh;
+    background-image: url(bgbgbgbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont{
+    padding: 50px;
+}
+.cont h1{
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-weight: 1000;
+}
+.cont p{
+    color: rgb(161, 159, 159);
+    font-size: 150%;
+    text-align: center;
+}
+h1{
+    padding-bottom: 10px;
+}
+p{
+    font-size: 125%;
+    text-align: justify;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.laman{
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 300px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.laman p{
+    padding: 15px;
+}
+.laman h2{
+    padding: 10px;
+    text-align: center;
+}
+.laman a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.laman:hover{
+    background-color: rgba(213, 164, 172, 0.304);
+    color: pink;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.laman a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.);
+    transition: all .7s ease;
+}
+
+.imahe{
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.img-1{
+    background-image: url(Genshin_Impact.webp);
+    
+}
+.img-2{
+    background-image: url(Honkai_Star_Rail_App.webp);
+    
+}
+.img-3{
+    background-image: url(zzz.png);
+    
+}
